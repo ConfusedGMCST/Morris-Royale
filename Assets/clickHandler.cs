@@ -3,59 +3,16 @@ using UnityEngine.UI;
 using UnityEngine.EventSystems;
 using TMPro;
 using System;
-using System.IO;
-
-public class stateData
-{
-    public string stateName;
-}
 
 public class clickHandler : MonoBehaviour
 {
-    Vector2 upPosition = new Vector2(-390.2f, -117.5f);
-    Vector2 downPosition = new Vector2(-390.2f, -283.5f);
-    string[] stateArray = {"test",
-        "Washington",
-        "Mount Olive",
-        "Chester",
-        "Roxbury",
-        "Mine Hill",
-        "Randolph",
-        "Mendham Boro",
-        "Mendham Township",
-        "Wharton",
-        "Dover",
-        "South Jefferson",
-        "North Jefferson",
-        "Rockaway Township",
-        "Rockaway Boro",
-        "Denville",
-        "Kinnelon",
-        "Butler-Riverdale",
-        "Pequannock",
-        "Lincoln Park",
-        "Montville",
-        "Boonton",
-        "Mountain Lakes",
-        "East Parsippany",
-        "West Parsippany",
-        "Morris Plains",
-        "West Morris Township",
-        "Morristown",
-        "East Morris Township",
-        "Hanover",
-        "East Hanover",
-        "Florham Park",
-        "Madison",
-        "Chatham Boro",
-        "Chatham Township",
-        "Long Hill",
-        "Harding"
-    };
+    Vector2 downPosition = new Vector2(-810, -789);
+    float sinIncrement = 498;
+    public GameObject[] states;
     float infoBarFrame = 0f;
     public float infoIncrement = 0.05f;
     float infoPosSin = 0;
-    int curState = 0;
+    int curStateNum = 0;
     bool infoBarActive = false;
     public RawImage infoBar;
     public TextMeshProUGUI stateName;
@@ -63,8 +20,7 @@ public class clickHandler : MonoBehaviour
     void Start()
     {
         infoBar.rectTransform.anchoredPosition = downPosition;
-        var yuh = Resources.Load<TextAsset>("state_data/state_1");
-        string jsonText = File.ReadAllText(Application.streamingAssetsPath + "/state_data/state_1.json");
+        
     }
 
     // Update is called once per frame
@@ -102,20 +58,19 @@ public class clickHandler : MonoBehaviour
         {
             if (infoBarFrame < 0.5f)
             {
-                infoPosSin = Mathf.Sin(Mathf.PI * infoBarFrame) * 166;
+                infoPosSin = Mathf.Sin(Mathf.PI * infoBarFrame) * sinIncrement;
                 infoBarFrame += infoIncrement;
-                infoBar.rectTransform.anchoredPosition = new Vector2(-306.5f, -283.5f + infoPosSin);
             }
         }
         if (!infoBarActive)
         {
             if (infoBarFrame > -0.1f)
             {
-                infoPosSin = Mathf.Sin(Mathf.PI * infoBarFrame) * 166;
+                infoPosSin = Mathf.Sin(Mathf.PI * infoBarFrame) * sinIncrement;
                 infoBarFrame -= infoIncrement;
-                infoBar.rectTransform.anchoredPosition = new Vector2(-306.5f, -283.5f + infoPosSin);
             }
         }
+        infoBar.rectTransform.anchoredPosition = new Vector2(downPosition.x, downPosition.y + infoPosSin);
     }
 
     public void provinceClicked()
@@ -124,14 +79,10 @@ public class clickHandler : MonoBehaviour
         if (!infoBarActive)
         {
             infoBarActive = true;
-            curState = findStateName(EventSystem.current.currentSelectedGameObject.name);
-            //stateName.text = #;
-
-        } else
-        {
-            curState = findStateName(EventSystem.current.currentSelectedGameObject.name);
-            stateName.text = stateArray[curState];
         }
+        curStateNum = findStateName(EventSystem.current.currentSelectedGameObject.name) - 1;
+        state curState = states[curStateNum].GetComponent<state>();
+        stateName.text = curState.nametag;
     }
     public void exitButton()
     {

@@ -132,6 +132,7 @@ GameObject:
   - component: {fileID: 18441149}
   - component: {fileID: 18441148}
   - component: {fileID: 18441151}
+  - component: {fileID: 18441152}
   m_Layer: 5
   m_Name: state_24
   m_TagString: Untagged
@@ -264,6 +265,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e7f3a865a17375a4cbe77ea49a75c9e7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &18441152
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 18441146}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b3fb659f7a5e054e9bfe32c794575b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nametag: West Parsippany
+  population: 1000
+  owner: DEF
 --- !u!1 &132458252
 GameObject:
   m_ObjectHideFlags: 0
@@ -409,6 +425,7 @@ GameObject:
   - component: {fileID: 142558000}
   - component: {fileID: 142557999}
   - component: {fileID: 142558002}
+  - component: {fileID: 142558003}
   m_Layer: 5
   m_Name: state_2
   m_TagString: Untagged
@@ -541,6 +558,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e7f3a865a17375a4cbe77ea49a75c9e7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &142558003
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 142557997}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b3fb659f7a5e054e9bfe32c794575b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nametag: Mount Olive
+  population: 1000
+  owner: DEF
 --- !u!1 &210197694
 GameObject:
   m_ObjectHideFlags: 0
@@ -554,6 +586,7 @@ GameObject:
   - component: {fileID: 210197697}
   - component: {fileID: 210197696}
   - component: {fileID: 210197699}
+  - component: {fileID: 210197700}
   m_Layer: 5
   m_Name: state_36
   m_TagString: Untagged
@@ -686,6 +719,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e7f3a865a17375a4cbe77ea49a75c9e7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &210197700
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 210197694}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b3fb659f7a5e054e9bfe32c794575b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nametag: Harding
+  population: 1000
+  owner: DEF
 --- !u!1 &223841583
 GameObject:
   m_ObjectHideFlags: 0
@@ -699,6 +747,7 @@ GameObject:
   - component: {fileID: 223841586}
   - component: {fileID: 223841585}
   - component: {fileID: 223841588}
+  - component: {fileID: 223841589}
   m_Layer: 5
   m_Name: state_3
   m_TagString: Untagged
@@ -831,6 +880,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e7f3a865a17375a4cbe77ea49a75c9e7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &223841589
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 223841583}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b3fb659f7a5e054e9bfe32c794575b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nametag: Chester
+  population: 1000
+  owner: DEF
 --- !u!1 &297220332
 GameObject:
   m_ObjectHideFlags: 0
@@ -844,6 +908,7 @@ GameObject:
   - component: {fileID: 297220335}
   - component: {fileID: 297220334}
   - component: {fileID: 297220337}
+  - component: {fileID: 297220338}
   m_Layer: 5
   m_Name: state_29
   m_TagString: Untagged
@@ -976,6 +1041,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e7f3a865a17375a4cbe77ea49a75c9e7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &297220338
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 297220332}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b3fb659f7a5e054e9bfe32c794575b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nametag: Hanover
+  population: 1000
+  owner: DEF
 --- !u!1 &373613380
 GameObject:
   m_ObjectHideFlags: 0
@@ -989,6 +1069,7 @@ GameObject:
   - component: {fileID: 373613383}
   - component: {fileID: 373613382}
   - component: {fileID: 373613385}
+  - component: {fileID: 373613386}
   m_Layer: 5
   m_Name: state_33
   m_TagString: Untagged
@@ -1121,6 +1202,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e7f3a865a17375a4cbe77ea49a75c9e7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &373613386
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 373613380}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b3fb659f7a5e054e9bfe32c794575b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nametag: Chatham Boro
+  population: 1000
+  owner: DEF
 --- !u!1 &379283163
 GameObject:
   m_ObjectHideFlags: 0
@@ -1134,6 +1230,7 @@ GameObject:
   - component: {fileID: 379283166}
   - component: {fileID: 379283165}
   - component: {fileID: 379283168}
+  - component: {fileID: 379283169}
   m_Layer: 5
   m_Name: state_26
   m_TagString: Untagged
@@ -1266,6 +1363,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e7f3a865a17375a4cbe77ea49a75c9e7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &379283169
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 379283163}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b3fb659f7a5e054e9bfe32c794575b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nametag: West Morris Township
+  population: 1000
+  owner: DEF
 --- !u!1 &408164242
 GameObject:
   m_ObjectHideFlags: 0
@@ -1279,6 +1391,7 @@ GameObject:
   - component: {fileID: 408164245}
   - component: {fileID: 408164244}
   - component: {fileID: 408164247}
+  - component: {fileID: 408164248}
   m_Layer: 5
   m_Name: state_7
   m_TagString: Untagged
@@ -1411,6 +1524,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e7f3a865a17375a4cbe77ea49a75c9e7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &408164248
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 408164242}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b3fb659f7a5e054e9bfe32c794575b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nametag: Mendham Boro
+  population: 1000
+  owner: DEF
 --- !u!1 &452524804
 GameObject:
   m_ObjectHideFlags: 0
@@ -1424,6 +1552,7 @@ GameObject:
   - component: {fileID: 452524807}
   - component: {fileID: 452524806}
   - component: {fileID: 452524809}
+  - component: {fileID: 452524810}
   m_Layer: 5
   m_Name: state_23
   m_TagString: Untagged
@@ -1556,6 +1685,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e7f3a865a17375a4cbe77ea49a75c9e7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &452524810
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 452524804}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b3fb659f7a5e054e9bfe32c794575b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nametag: East Parsippany
+  population: 1000
+  owner: DEF
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -1706,6 +1850,7 @@ GameObject:
   - component: {fileID: 530752669}
   - component: {fileID: 530752668}
   - component: {fileID: 530752671}
+  - component: {fileID: 530752672}
   m_Layer: 5
   m_Name: state_12
   m_TagString: Untagged
@@ -1838,6 +1983,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e7f3a865a17375a4cbe77ea49a75c9e7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &530752672
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 530752666}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b3fb659f7a5e054e9bfe32c794575b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nametag: North Jefferson
+  population: 1000
+  owner: DEF
 --- !u!1 &551072112
 GameObject:
   m_ObjectHideFlags: 0
@@ -1851,6 +2011,7 @@ GameObject:
   - component: {fileID: 551072115}
   - component: {fileID: 551072114}
   - component: {fileID: 551072117}
+  - component: {fileID: 551072118}
   m_Layer: 5
   m_Name: state_30
   m_TagString: Untagged
@@ -1983,6 +2144,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e7f3a865a17375a4cbe77ea49a75c9e7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &551072118
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 551072112}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b3fb659f7a5e054e9bfe32c794575b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nametag: East Hanover
+  population: 1000
+  owner: DEF
 --- !u!1 &619394800
 GameObject:
   m_ObjectHideFlags: 0
@@ -2182,6 +2358,7 @@ GameObject:
   - component: {fileID: 746878687}
   - component: {fileID: 746878686}
   - component: {fileID: 746878685}
+  - component: {fileID: 746878690}
   - component: {fileID: 746878689}
   m_Layer: 5
   m_Name: state_1
@@ -2315,6 +2492,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e7f3a865a17375a4cbe77ea49a75c9e7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &746878690
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 746878683}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b3fb659f7a5e054e9bfe32c794575b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nametag: Washington
+  population: 1000
+  owner: DEF
 --- !u!1 &778036011
 GameObject:
   m_ObjectHideFlags: 0
@@ -2377,7 +2569,7 @@ RectTransform:
   m_GameObject: {fileID: 778036011}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 3, y: 3, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 132458253}
@@ -2386,7 +2578,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -306.5, y: -283.5}
+  m_AnchoredPosition: {x: -810, y: -789}
   m_SizeDelta: {x: 100, y: 166}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &788283183
@@ -2418,6 +2610,43 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ce77d75c90a71a46b0df8f3987869e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  states:
+  - {fileID: 746878683}
+  - {fileID: 142557997}
+  - {fileID: 223841583}
+  - {fileID: 898102410}
+  - {fileID: 998505362}
+  - {fileID: 1488691930}
+  - {fileID: 408164242}
+  - {fileID: 1075430010}
+  - {fileID: 1242905046}
+  - {fileID: 1319227851}
+  - {fileID: 2048147507}
+  - {fileID: 530752666}
+  - {fileID: 1077444872}
+  - {fileID: 1371318197}
+  - {fileID: 1655762041}
+  - {fileID: 1262649597}
+  - {fileID: 1352151459}
+  - {fileID: 1962473714}
+  - {fileID: 1680457282}
+  - {fileID: 961823415}
+  - {fileID: 1931148253}
+  - {fileID: 1469643582}
+  - {fileID: 452524804}
+  - {fileID: 18441146}
+  - {fileID: 1052986556}
+  - {fileID: 379283163}
+  - {fileID: 1940720367}
+  - {fileID: 1909052819}
+  - {fileID: 297220332}
+  - {fileID: 551072112}
+  - {fileID: 1801271138}
+  - {fileID: 2098438568}
+  - {fileID: 373613380}
+  - {fileID: 1382229436}
+  - {fileID: 917324758}
+  - {fileID: 210197694}
   infoIncrement: 0.02
   infoBar: {fileID: 778036012}
   stateName: {fileID: 1860799951}
@@ -2449,6 +2678,7 @@ GameObject:
   - component: {fileID: 898102413}
   - component: {fileID: 898102412}
   - component: {fileID: 898102415}
+  - component: {fileID: 898102416}
   m_Layer: 5
   m_Name: state_4
   m_TagString: Untagged
@@ -2581,6 +2811,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e7f3a865a17375a4cbe77ea49a75c9e7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &898102416
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 898102410}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b3fb659f7a5e054e9bfe32c794575b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nametag: Roxbury
+  population: 1000
+  owner: DEF
 --- !u!1 &917324758
 GameObject:
   m_ObjectHideFlags: 0
@@ -2594,6 +2839,7 @@ GameObject:
   - component: {fileID: 917324761}
   - component: {fileID: 917324760}
   - component: {fileID: 917324763}
+  - component: {fileID: 917324764}
   m_Layer: 5
   m_Name: state_35
   m_TagString: Untagged
@@ -2726,6 +2972,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e7f3a865a17375a4cbe77ea49a75c9e7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &917324764
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 917324758}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b3fb659f7a5e054e9bfe32c794575b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nametag: Long Hill
+  population: 1000
+  owner: DEF
 --- !u!1 &961823415
 GameObject:
   m_ObjectHideFlags: 0
@@ -2739,6 +3000,7 @@ GameObject:
   - component: {fileID: 961823418}
   - component: {fileID: 961823417}
   - component: {fileID: 961823420}
+  - component: {fileID: 961823421}
   m_Layer: 5
   m_Name: state_20
   m_TagString: Untagged
@@ -2871,6 +3133,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e7f3a865a17375a4cbe77ea49a75c9e7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &961823421
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 961823415}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b3fb659f7a5e054e9bfe32c794575b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nametag: Montville
+  population: 1000
+  owner: DEF
 --- !u!1 &998505362
 GameObject:
   m_ObjectHideFlags: 0
@@ -2884,6 +3161,7 @@ GameObject:
   - component: {fileID: 998505365}
   - component: {fileID: 998505364}
   - component: {fileID: 998505367}
+  - component: {fileID: 998505368}
   m_Layer: 5
   m_Name: state_5
   m_TagString: Untagged
@@ -3016,6 +3294,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e7f3a865a17375a4cbe77ea49a75c9e7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &998505368
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 998505362}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b3fb659f7a5e054e9bfe32c794575b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nametag: Mine Hill
+  population: 1000
+  owner: DEF
 --- !u!1 &1052986556
 GameObject:
   m_ObjectHideFlags: 0
@@ -3029,6 +3322,7 @@ GameObject:
   - component: {fileID: 1052986559}
   - component: {fileID: 1052986558}
   - component: {fileID: 1052986561}
+  - component: {fileID: 1052986562}
   m_Layer: 5
   m_Name: state_25
   m_TagString: Untagged
@@ -3161,6 +3455,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e7f3a865a17375a4cbe77ea49a75c9e7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1052986562
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1052986556}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b3fb659f7a5e054e9bfe32c794575b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nametag: Morris Plains
+  population: 1000
+  owner: DEF
 --- !u!1 &1075430010
 GameObject:
   m_ObjectHideFlags: 0
@@ -3174,6 +3483,7 @@ GameObject:
   - component: {fileID: 1075430013}
   - component: {fileID: 1075430012}
   - component: {fileID: 1075430015}
+  - component: {fileID: 1075430016}
   m_Layer: 5
   m_Name: state_8
   m_TagString: Untagged
@@ -3197,7 +3507,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -3.350006, y: -52.800003}
+  m_AnchoredPosition: {x: -3.350029, y: -52.800022}
   m_SizeDelta: {x: 44, y: 51}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1075430012
@@ -3306,6 +3616,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e7f3a865a17375a4cbe77ea49a75c9e7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1075430016
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1075430010}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b3fb659f7a5e054e9bfe32c794575b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nametag: Mendham Township
+  population: 1000
+  owner: DEF
 --- !u!1 &1077444872
 GameObject:
   m_ObjectHideFlags: 0
@@ -3319,6 +3644,7 @@ GameObject:
   - component: {fileID: 1077444875}
   - component: {fileID: 1077444874}
   - component: {fileID: 1077444877}
+  - component: {fileID: 1077444878}
   m_Layer: 5
   m_Name: state_13
   m_TagString: Untagged
@@ -3451,6 +3777,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e7f3a865a17375a4cbe77ea49a75c9e7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1077444878
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1077444872}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b3fb659f7a5e054e9bfe32c794575b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nametag: Rockaway Township
+  population: 1000
+  owner: DEF
 --- !u!1 &1242905046
 GameObject:
   m_ObjectHideFlags: 0
@@ -3464,6 +3805,7 @@ GameObject:
   - component: {fileID: 1242905049}
   - component: {fileID: 1242905048}
   - component: {fileID: 1242905051}
+  - component: {fileID: 1242905052}
   m_Layer: 5
   m_Name: state_9
   m_TagString: Untagged
@@ -3596,6 +3938,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e7f3a865a17375a4cbe77ea49a75c9e7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1242905052
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1242905046}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b3fb659f7a5e054e9bfe32c794575b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nametag: Wharton
+  population: 1000
+  owner: DEF
 --- !u!1 &1262649597
 GameObject:
   m_ObjectHideFlags: 0
@@ -3609,6 +3966,7 @@ GameObject:
   - component: {fileID: 1262649600}
   - component: {fileID: 1262649599}
   - component: {fileID: 1262649602}
+  - component: {fileID: 1262649603}
   m_Layer: 5
   m_Name: state_16
   m_TagString: Untagged
@@ -3741,6 +4099,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e7f3a865a17375a4cbe77ea49a75c9e7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1262649603
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1262649597}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b3fb659f7a5e054e9bfe32c794575b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nametag: Kinnelon
+  population: 1000
+  owner: DEF
 --- !u!1 &1277308058
 GameObject:
   m_ObjectHideFlags: 0
@@ -3833,6 +4206,7 @@ GameObject:
   - component: {fileID: 1319227854}
   - component: {fileID: 1319227853}
   - component: {fileID: 1319227856}
+  - component: {fileID: 1319227857}
   m_Layer: 5
   m_Name: state_10
   m_TagString: Untagged
@@ -3965,6 +4339,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e7f3a865a17375a4cbe77ea49a75c9e7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1319227857
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1319227851}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b3fb659f7a5e054e9bfe32c794575b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nametag: Dover
+  population: 1000
+  owner: DEF
 --- !u!1 &1330543934
 GameObject:
   m_ObjectHideFlags: 0
@@ -3990,7 +4379,7 @@ RectTransform:
   m_GameObject: {fileID: 1330543934}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 3, y: 3, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 746878684}
@@ -4049,6 +4438,7 @@ GameObject:
   - component: {fileID: 1352151462}
   - component: {fileID: 1352151461}
   - component: {fileID: 1352151464}
+  - component: {fileID: 1352151465}
   m_Layer: 5
   m_Name: state_17
   m_TagString: Untagged
@@ -4181,6 +4571,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e7f3a865a17375a4cbe77ea49a75c9e7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1352151465
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1352151459}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b3fb659f7a5e054e9bfe32c794575b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nametag: Butler-Riverdale
+  population: 1000
+  owner: DEF
 --- !u!1 &1371318197
 GameObject:
   m_ObjectHideFlags: 0
@@ -4194,6 +4599,7 @@ GameObject:
   - component: {fileID: 1371318200}
   - component: {fileID: 1371318199}
   - component: {fileID: 1371318202}
+  - component: {fileID: 1371318203}
   m_Layer: 5
   m_Name: state_14
   m_TagString: Untagged
@@ -4326,6 +4732,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e7f3a865a17375a4cbe77ea49a75c9e7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1371318203
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1371318197}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b3fb659f7a5e054e9bfe32c794575b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nametag: Rockaway Boro
+  population: 1000
+  owner: DEF
 --- !u!1 &1382229436
 GameObject:
   m_ObjectHideFlags: 0
@@ -4339,6 +4760,7 @@ GameObject:
   - component: {fileID: 1382229439}
   - component: {fileID: 1382229438}
   - component: {fileID: 1382229441}
+  - component: {fileID: 1382229442}
   m_Layer: 5
   m_Name: state_34
   m_TagString: Untagged
@@ -4471,6 +4893,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e7f3a865a17375a4cbe77ea49a75c9e7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1382229442
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1382229436}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b3fb659f7a5e054e9bfe32c794575b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nametag: Chatham Township
+  population: 1000
+  owner: DEF
 --- !u!1 &1469643582
 GameObject:
   m_ObjectHideFlags: 0
@@ -4484,6 +4921,7 @@ GameObject:
   - component: {fileID: 1469643585}
   - component: {fileID: 1469643584}
   - component: {fileID: 1469643587}
+  - component: {fileID: 1469643588}
   m_Layer: 5
   m_Name: state_22
   m_TagString: Untagged
@@ -4616,6 +5054,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e7f3a865a17375a4cbe77ea49a75c9e7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1469643588
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1469643582}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b3fb659f7a5e054e9bfe32c794575b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nametag: Mountain Lakes
+  population: 1000
+  owner: DEF
 --- !u!1 &1488691930
 GameObject:
   m_ObjectHideFlags: 0
@@ -4629,6 +5082,7 @@ GameObject:
   - component: {fileID: 1488691933}
   - component: {fileID: 1488691932}
   - component: {fileID: 1488691935}
+  - component: {fileID: 1488691936}
   m_Layer: 5
   m_Name: state_6
   m_TagString: Untagged
@@ -4761,6 +5215,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e7f3a865a17375a4cbe77ea49a75c9e7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1488691936
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1488691930}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b3fb659f7a5e054e9bfe32c794575b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nametag: Randolph
+  population: 1000
+  owner: DEF
 --- !u!1 &1655762041
 GameObject:
   m_ObjectHideFlags: 0
@@ -4774,6 +5243,7 @@ GameObject:
   - component: {fileID: 1655762044}
   - component: {fileID: 1655762043}
   - component: {fileID: 1655762046}
+  - component: {fileID: 1655762047}
   m_Layer: 5
   m_Name: state_15
   m_TagString: Untagged
@@ -4906,6 +5376,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e7f3a865a17375a4cbe77ea49a75c9e7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1655762047
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1655762041}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b3fb659f7a5e054e9bfe32c794575b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nametag: Denville
+  population: 1000
+  owner: DEF
 --- !u!1 &1680457282
 GameObject:
   m_ObjectHideFlags: 0
@@ -4919,6 +5404,7 @@ GameObject:
   - component: {fileID: 1680457285}
   - component: {fileID: 1680457284}
   - component: {fileID: 1680457287}
+  - component: {fileID: 1680457288}
   m_Layer: 5
   m_Name: state_19
   m_TagString: Untagged
@@ -5051,6 +5537,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e7f3a865a17375a4cbe77ea49a75c9e7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1680457288
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1680457282}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b3fb659f7a5e054e9bfe32c794575b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nametag: Lincoln Park
+  population: 1000
+  owner: DEF
 --- !u!1 &1801271138
 GameObject:
   m_ObjectHideFlags: 0
@@ -5064,6 +5565,7 @@ GameObject:
   - component: {fileID: 1801271141}
   - component: {fileID: 1801271140}
   - component: {fileID: 1801271143}
+  - component: {fileID: 1801271144}
   m_Layer: 5
   m_Name: state_31
   m_TagString: Untagged
@@ -5196,6 +5698,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e7f3a865a17375a4cbe77ea49a75c9e7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1801271144
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1801271138}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b3fb659f7a5e054e9bfe32c794575b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nametag: Florham Park
+  population: 1000
+  owner: DEF
 --- !u!1 &1860799949
 GameObject:
   m_ObjectHideFlags: 0
@@ -5253,7 +5770,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: guh
+  m_text: gurting
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -5345,6 +5862,7 @@ GameObject:
   - component: {fileID: 1909052822}
   - component: {fileID: 1909052821}
   - component: {fileID: 1909052824}
+  - component: {fileID: 1909052825}
   m_Layer: 5
   m_Name: state_28
   m_TagString: Untagged
@@ -5477,6 +5995,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e7f3a865a17375a4cbe77ea49a75c9e7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1909052825
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1909052819}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b3fb659f7a5e054e9bfe32c794575b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nametag: East Morris Township
+  population: 1000
+  owner: DEF
 --- !u!1 &1931148253
 GameObject:
   m_ObjectHideFlags: 0
@@ -5490,6 +6023,7 @@ GameObject:
   - component: {fileID: 1931148256}
   - component: {fileID: 1931148255}
   - component: {fileID: 1931148258}
+  - component: {fileID: 1931148259}
   m_Layer: 5
   m_Name: state_21
   m_TagString: Untagged
@@ -5622,6 +6156,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e7f3a865a17375a4cbe77ea49a75c9e7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1931148259
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1931148253}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b3fb659f7a5e054e9bfe32c794575b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nametag: Boonton
+  population: 1000
+  owner: DEF
 --- !u!1 &1940720367
 GameObject:
   m_ObjectHideFlags: 0
@@ -5635,6 +6184,7 @@ GameObject:
   - component: {fileID: 1940720370}
   - component: {fileID: 1940720369}
   - component: {fileID: 1940720372}
+  - component: {fileID: 1940720373}
   m_Layer: 5
   m_Name: state_27
   m_TagString: Untagged
@@ -5767,6 +6317,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e7f3a865a17375a4cbe77ea49a75c9e7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1940720373
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1940720367}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b3fb659f7a5e054e9bfe32c794575b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nametag: Morristown
+  population: 1000
+  owner: DEF
 --- !u!1 &1962473714
 GameObject:
   m_ObjectHideFlags: 0
@@ -5780,6 +6345,7 @@ GameObject:
   - component: {fileID: 1962473717}
   - component: {fileID: 1962473716}
   - component: {fileID: 1962473719}
+  - component: {fileID: 1962473720}
   m_Layer: 5
   m_Name: state_18
   m_TagString: Untagged
@@ -5912,6 +6478,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e7f3a865a17375a4cbe77ea49a75c9e7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1962473720
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1962473714}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b3fb659f7a5e054e9bfe32c794575b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nametag: Pequannock
+  population: 0
+  owner: 
 --- !u!1 &2048147507
 GameObject:
   m_ObjectHideFlags: 0
@@ -5925,6 +6506,7 @@ GameObject:
   - component: {fileID: 2048147510}
   - component: {fileID: 2048147509}
   - component: {fileID: 2048147512}
+  - component: {fileID: 2048147513}
   m_Layer: 5
   m_Name: state_11
   m_TagString: Untagged
@@ -6057,6 +6639,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e7f3a865a17375a4cbe77ea49a75c9e7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &2048147513
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2048147507}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b3fb659f7a5e054e9bfe32c794575b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nametag: South Jefferson
+  population: 1000
+  owner: DEF
 --- !u!1 &2098438568
 GameObject:
   m_ObjectHideFlags: 0
@@ -6070,6 +6667,7 @@ GameObject:
   - component: {fileID: 2098438571}
   - component: {fileID: 2098438570}
   - component: {fileID: 2098438573}
+  - component: {fileID: 2098438574}
   m_Layer: 5
   m_Name: state_32
   m_TagString: Untagged
@@ -6202,6 +6800,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e7f3a865a17375a4cbe77ea49a75c9e7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &2098438574
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2098438568}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b3fb659f7a5e054e9bfe32c794575b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nametag: Madison
+  population: 1000
+  owner: DEF
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
