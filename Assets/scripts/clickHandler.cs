@@ -7,7 +7,7 @@ using System;
 public class clickHandler : MonoBehaviour
 {
     Vector2 downPosition = new Vector2(-810, -789);
-    Vector2 topActivePos = new Vector2(-1270, 0);
+    Vector2 topActivePos = new Vector2(-1065, 0);
 
     public GameObject[] states;
     public GameObject[] countryArray;
@@ -33,15 +33,11 @@ public class clickHandler : MonoBehaviour
     bool infoBarActive = false;
     bool topBarActive = false;
 
-    Transform countryTransform;
-
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        countryTransform = countries.transform;
         infoBar.rectTransform.anchoredPosition = downPosition;
         topBar.transform.localPosition = new Vector2(topActivePos.x + topBarSin, topActivePos.y);
-        Debug.Log(countryTransform.Find("DEF").GetComponent<country>().countryName);
     }
 
     country findCountry(state s)
@@ -76,7 +72,7 @@ public class clickHandler : MonoBehaviour
                 }
             }
         }
-        num = Int32.Parse(numStr);
+        num = int.Parse(numStr);
         return num;
     }
     
@@ -120,7 +116,6 @@ public class clickHandler : MonoBehaviour
 
     public void provinceClicked()
     {
-        Debug.Log("hi");
         if (!infoBarActive)
         {
             infoBarActive = true;
@@ -149,7 +144,6 @@ public class clickHandler : MonoBehaviour
     }
     public void exitButton()
     {
-        Debug.Log("bye");
         if (infoBarActive)
         {
             infoBarActive = false;
