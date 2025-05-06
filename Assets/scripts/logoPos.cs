@@ -19,7 +19,7 @@ public class logoPos : MonoBehaviour
             }
             else if (politText.text.Length < 3)
             {
-                logo.transform.localPosition = new Vector2(initPos.x - 17, initPos.y);
+                logo.transform.localPosition = new Vector2(initPos.x - 15, initPos.y);
             }
             else
             {
@@ -32,7 +32,7 @@ public class logoPos : MonoBehaviour
                 logo.transform.localPosition = new Vector2(initPos.x - 27, initPos.y);
             } else if (politText.text.Length < 3)
             {
-                logo.transform.localPosition = new Vector2(initPos.x + 17, initPos.y);
+                logo.transform.localPosition = new Vector2(initPos.x + 15, initPos.y);
             } else
             {
                 logo.transform.localPosition = new Vector2(initPos.x, initPos.y);

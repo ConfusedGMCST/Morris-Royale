@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      nationalists_0: 3649366939225713870
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

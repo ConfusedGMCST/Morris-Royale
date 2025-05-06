@@ -184,7 +184,10 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      monarchists_0: -4328184284264951379
+      monarchists_1: 5335318980223654360
+      monarchists_2: -1719954030831252225
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

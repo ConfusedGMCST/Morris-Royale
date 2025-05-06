@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      bigRedBuzzer_0: 1371069990215143258
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

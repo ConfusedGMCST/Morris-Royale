@@ -63,18 +63,15 @@ public class clickHandler : MonoBehaviour
         {
             if (infoBarFrame < 0.5f)
             {
-                infoPosSin = Mathf.Sin(Mathf.PI * infoBarFrame) * sinIncrement;
                 infoBarFrame += infoIncrement;
             }
-        }
-        if (!infoBarActive)
-        {
+        } else {
             if (infoBarFrame > -0.1f)
             {
-                infoPosSin = Mathf.Sin(Mathf.PI * infoBarFrame) * sinIncrement;
                 infoBarFrame -= infoIncrement;
             }
         }
+        infoPosSin = Mathf.Sin(Mathf.PI * infoBarFrame) * sinIncrement;
         infoBar.rectTransform.anchoredPosition = new Vector2(downPosition.x, downPosition.y + infoPosSin);
     }
 
