@@ -6,4 +6,5 @@ public class state : MonoBehaviour
     public int population;
     public string owner;
     public float[] politics;
+    public float income;
 }

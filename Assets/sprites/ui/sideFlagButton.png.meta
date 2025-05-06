@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 723032be886639849b5109ffffa2725d
+guid: c3f44bd81d0f4794e8d92e660a55979b
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 4766952339921162384
-    second: west morris township_0
+      213: 5742698099162714042
+    second: sideFlagButton_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: west morris township_0
+      name: sideFlagButton_0
       rect:
         serializedVersion: 2
-        x: 158
-        y: 77
-        width: 46
-        height: 41
+        x: 0
+        y: 0
+        width: 50
+        height: 150
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 090d73295ed972240800000000000000
-      internalID: 4766952339921162384
+      spriteID: abf87ecbe7922bf40800000000000000
+      internalID: 5742698099162714042
       vertices: []
       indices: 
       edges: []
@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      sideFlagButton_0: 5742698099162714042
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

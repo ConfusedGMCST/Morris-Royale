@@ -278,14 +278,65 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nametag: West Parsippany
-  population: 1000
+  population: 28081
   owner: DEF
   politics:
-  - 20
-  - 20
-  - 20
-  - 20
-  - 20
+  - 31
+  - 19
+  - 14
+  - 11
+  - 25
+  income: 1000
+--- !u!1 &37897753
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 37897755}
+  - component: {fileID: 37897754}
+  m_Layer: 0
+  m_Name: player
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &37897754
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 37897753}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 49a4b55e80613a645b4b7ddf9ae3a888, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  countries: []
+  countryTag: 
+  totalPops: 0
+  rulingParty: 0
+  income: 0
+  expenses: 0
+--- !u!4 &37897755
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 37897753}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 216.96953, y: 549.3798, z: -18.609869}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &115734270
 GameObject:
   m_ObjectHideFlags: 0
@@ -732,13 +783,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nametag: Mount Olive
   population: 28886
-  owner: DEF
+  owner: GUH
   politics:
   - 25
   - 12
   - 18
   - 19
   - 26
+  income: 1000
 --- !u!1 &170769345
 GameObject:
   m_ObjectHideFlags: 0
@@ -1035,14 +1087,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nametag: Harding
-  population: 1000
+  population: 3871
   owner: DEF
   politics:
-  - 20
-  - 20
-  - 20
-  - 20
-  - 20
+  - 10
+  - 29
+  - 21
+  - 23
+  - 17
+  income: 1000
 --- !u!1 &223841583
 GameObject:
   m_ObjectHideFlags: 0
@@ -1203,13 +1256,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nametag: Chester
   population: 9314
-  owner: DEF
+  owner: GUH
   politics:
   - 12
   - 14
   - 24
   - 32
   - 18
+  income: 1000
 --- !u!1 &297220332
 GameObject:
   m_ObjectHideFlags: 0
@@ -1369,14 +1423,51 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nametag: Hanover
-  population: 1000
+  population: 14677
   owner: DEF
   politics:
-  - 20
-  - 20
-  - 20
-  - 20
-  - 20
+  - 13
+  - 27
+  - 26
+  - 24
+  - 10
+  income: 1000
+--- !u!1 &298281711
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 298281712}
+  m_Layer: 5
+  m_Name: info
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &298281712
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 298281711}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 973016124}
+  m_Father: {fileID: 1322930472}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -1270, y: 0}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &373613380
 GameObject:
   m_ObjectHideFlags: 0
@@ -1536,14 +1627,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nametag: Chatham Boro
-  population: 1000
+  population: 9212
   owner: DEF
   politics:
+  - 31
+  - 30
+  - 16
   - 20
-  - 20
-  - 20
-  - 20
-  - 20
+  - 3
+  income: 1000
 --- !u!1 &379283163
 GameObject:
   m_ObjectHideFlags: 0
@@ -1703,14 +1795,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nametag: West Morris Township
-  population: 1000
+  population: 11487
   owner: DEF
   politics:
-  - 20
-  - 20
-  - 20
-  - 20
-  - 20
+  - 12
+  - 16
+  - 22
+  - 24
+  - 26
+  income: 1000
 --- !u!1 &408164242
 GameObject:
   m_ObjectHideFlags: 0
@@ -1870,14 +1963,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nametag: Mendham Boro
-  population: 1000
-  owner: DEF
+  population: 4981
+  owner: GUH
   politics:
-  - 20
-  - 20
-  - 20
-  - 20
-  - 20
+  - 34
+  - 16
+  - 8
+  - 19
+  - 23
+  income: 1000
 --- !u!1 &445390937
 GameObject:
   m_ObjectHideFlags: 0
@@ -2109,14 +2203,66 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nametag: East Parsippany
-  population: 1000
+  population: 28081
   owner: DEF
   politics:
-  - 20
-  - 20
-  - 20
-  - 20
-  - 20
+  - 13
+  - 24
+  - 47
+  - 11
+  - 5
+  income: 1000
+--- !u!1 &472677306
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 472677307}
+  - component: {fileID: 472677308}
+  m_Layer: 0
+  m_Name: GUH
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &472677307
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 472677306}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 823774890}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &472677308
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 472677306}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 421bdb2ddfe80bb43806ed7eb386e8b2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  countryName: bruh
+  rulingParty: nationalist
+  color: {r: 0.20784311, g: 0.56916696, b: 0.8117647, a: 1}
+  money: 0
+  stability: 0
+  warSupport: 0
+  manpower: 0
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -2421,6 +2567,7 @@ MonoBehaviour:
   - 2
   - 28
   - 10
+  income: 1000
 --- !u!1 &551072112
 GameObject:
   m_ObjectHideFlags: 0
@@ -2580,14 +2727,151 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nametag: East Hanover
-  population: 1000
+  population: 11105
   owner: DEF
   politics:
-  - 20
-  - 20
-  - 20
-  - 20
-  - 20
+  - 16
+  - 14
+  - 26
+  - 28
+  - 16
+  income: 1000
+--- !u!1 &611587569
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 611587570}
+  - component: {fileID: 611587572}
+  - component: {fileID: 611587571}
+  m_Layer: 5
+  m_Name: ownerText
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &611587570
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 611587569}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.34238, y: 0.34238, z: 0.34238}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 778036014}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -0.6006, y: 40}
+  m_SizeDelta: {x: 240, y: 35}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &611587571
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 611587569}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: owner
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4278190080
+  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 32
+  m_fontSizeBase: 36
+  m_fontWeight: 400
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 18
+  m_fontSizeMax: 32
+  m_fontStyle: 0
+  m_HorizontalAlignment: 1
+  m_VerticalAlignment: 256
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_TextWrappingMode: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 0
+  m_ActiveFontFeatures: 6e72656b
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_EmojiFallbackSupport: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: -1.4526443, w: -1.0912838}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &611587572
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 611587569}
+  m_CullTransparentMesh: 1
 --- !u!1 &619394800
 GameObject:
   m_ObjectHideFlags: 0
@@ -2768,6 +3052,7 @@ RectTransform:
   m_Children:
   - {fileID: 778036014}
   - {fileID: 1330543935}
+  - {fileID: 1322930472}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -2935,13 +3220,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nametag: Washington
   population: 18197
-  owner: DEF
+  owner: GUH
   politics:
   - 10
   - 20
   - 23
   - 20
   - 27
+  income: 1000
 --- !u!1 &778036011
 GameObject:
   m_ObjectHideFlags: 0
@@ -3010,6 +3296,7 @@ RectTransform:
   - {fileID: 132458253}
   - {fileID: 1860799950}
   - {fileID: 1634155224}
+  - {fileID: 611587570}
   - {fileID: 1987041468}
   m_Father: {fileID: 739961038}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -3084,17 +3371,22 @@ MonoBehaviour:
   - {fileID: 1382229436}
   - {fileID: 917324758}
   - {fileID: 210197694}
+  countryArray:
+  - {fileID: 917453578}
+  - {fileID: 472677306}
+  countries: {fileID: 823774889}
   infoIncrement: 0.02
   infoBar: {fileID: 778036012}
+  topBar: {fileID: 298281711}
   stateName: {fileID: 1860799951}
   popText: {fileID: 1634155225}
+  ownerText: {fileID: 611587571}
   parties:
   - {fileID: 115734272}
   - {fileID: 1772328371}
   - {fileID: 170769347}
   - {fileID: 1859141423}
   - {fileID: 1189288279}
-  countries: {fileID: 823774889}
 --- !u!4 &788283185
 Transform:
   m_ObjectHideFlags: 0
@@ -3140,6 +3432,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 917453579}
+  - {fileID: 472677307}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &851984481
@@ -3391,13 +3684,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nametag: Roxbury
   population: 22950
-  owner: DEF
+  owner: GUH
   politics:
   - 9
   - 11
   - 30
   - 15
   - 25
+  income: 1000
 --- !u!1 &917324758
 GameObject:
   m_ObjectHideFlags: 0
@@ -3557,7 +3851,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nametag: Long Hill
-  population: 1000
+  population: 8629
   owner: DEF
   politics:
   - 20
@@ -3565,6 +3859,7 @@ MonoBehaviour:
   - 20
   - 20
   - 20
+  income: 1000
 --- !u!1 &917453578
 GameObject:
   m_ObjectHideFlags: 0
@@ -3611,9 +3906,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   countryName: test
   rulingParty: nationalist
-  color:
-    serializedVersion: 2
-    rgba: 9360750
+  color: {r: 0.2066571, g: 0.8113208, b: 0.27719638, a: 1}
   money: 0
   stability: 0
   warSupport: 0
@@ -3849,14 +4142,88 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nametag: Montville
-  population: 1000
+  population: 22450
   owner: DEF
   politics:
-  - 20
-  - 20
-  - 20
-  - 20
-  - 20
+  - 12
+  - 48
+  - 17
+  - 13
+  - 10
+  income: 1000
+--- !u!1 &973016123
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 973016124}
+  - component: {fileID: 973016126}
+  - component: {fileID: 973016125}
+  m_Layer: 5
+  m_Name: barBackground
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &973016124
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 973016123}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1453391382}
+  m_Father: {fileID: 298281712}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 12.5}
+  m_SizeDelta: {x: 1420, y: 175}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &973016125
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 973016123}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1344c3c82d62a2a41a3576d8abb8e3ea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Texture: {fileID: 2800000, guid: b6b2caad38d35164f8e6b40bad9ff2f9, type: 3}
+  m_UVRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+--- !u!222 &973016126
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 973016123}
+  m_CullTransparentMesh: 1
 --- !u!1 &998505362
 GameObject:
   m_ObjectHideFlags: 0
@@ -4017,13 +4384,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nametag: Mine Hill
   population: 4015
-  owner: DEF
+  owner: GUH
   politics:
   - 19
   - 17
   - 19
   - 17
   - 28
+  income: 1000
 --- !u!1 &1052986556
 GameObject:
   m_ObjectHideFlags: 0
@@ -4183,14 +4551,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nametag: Morris Plains
-  population: 1000
+  population: 6153
   owner: DEF
   politics:
-  - 20
-  - 20
-  - 20
-  - 20
-  - 20
+  - 23
+  - 27
+  - 12
+  - 14
+  - 24
+  income: 1000
 --- !u!1 &1075430010
 GameObject:
   m_ObjectHideFlags: 0
@@ -4350,14 +4719,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nametag: Mendham Township
-  population: 1000
-  owner: DEF
+  population: 5869
+  owner: GUH
   politics:
-  - 20
-  - 20
-  - 20
-  - 20
-  - 20
+  - 28
+  - 18
+  - 21
+  - 14
+  - 19
+  income: 1000
 --- !u!1 &1077444872
 GameObject:
   m_ObjectHideFlags: 0
@@ -4525,6 +4895,7 @@ MonoBehaviour:
   - 12
   - 19
   - 28
+  income: 1000
 --- !u!1 &1189288277
 GameObject:
   m_ObjectHideFlags: 0
@@ -4839,13 +5210,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nametag: Wharton
   population: 7241
-  owner: DEF
+  owner: GUH
   politics:
   - 20
   - 20
   - 20
   - 20
   - 20
+  income: 1000
 --- !u!1 &1262649597
 GameObject:
   m_ObjectHideFlags: 0
@@ -5005,14 +5377,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nametag: Kinnelon
-  population: 1000
+  population: 9966
   owner: DEF
   politics:
-  - 20
-  - 20
-  - 20
-  - 20
-  - 20
+  - 8
+  - 18
+  - 24
+  - 19
+  - 31
+  income: 1000
 --- !u!1 &1277308058
 GameObject:
   m_ObjectHideFlags: 0
@@ -5259,6 +5632,44 @@ MonoBehaviour:
   - 12
   - 48
   - 10
+  income: 1000
+--- !u!1 &1322930471
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1322930472}
+  m_Layer: 5
+  m_Name: topBar
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1322930472
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1322930471}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 298281712}
+  - {fileID: 1350695028}
+  m_Father: {fileID: 739961038}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 440}
+  m_SizeDelta: {x: 100, y: 200}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1330543934
 GameObject:
   m_ObjectHideFlags: 0
@@ -5328,7 +5739,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: -73}
   m_SizeDelta: {x: 300.9, y: 274.4}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1330543936
@@ -5343,6 +5754,43 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c96ec49c568798143a0f846a32e55e73, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  stateButtons:
+  - {fileID: 746878685}
+  - {fileID: 142557999}
+  - {fileID: 223841585}
+  - {fileID: 898102412}
+  - {fileID: 998505364}
+  - {fileID: 1488691932}
+  - {fileID: 408164244}
+  - {fileID: 1075430012}
+  - {fileID: 1242905048}
+  - {fileID: 1319227853}
+  - {fileID: 2048147509}
+  - {fileID: 530752668}
+  - {fileID: 1077444874}
+  - {fileID: 1371318199}
+  - {fileID: 1655762043}
+  - {fileID: 1262649599}
+  - {fileID: 1352151461}
+  - {fileID: 1962473716}
+  - {fileID: 1680457284}
+  - {fileID: 961823417}
+  - {fileID: 1931148255}
+  - {fileID: 1469643584}
+  - {fileID: 452524806}
+  - {fileID: 18441148}
+  - {fileID: 1052986558}
+  - {fileID: 379283165}
+  - {fileID: 1940720369}
+  - {fileID: 1909052821}
+  - {fileID: 297220334}
+  - {fileID: 551072114}
+  - {fileID: 1801271140}
+  - {fileID: 2098438570}
+  - {fileID: 373613382}
+  - {fileID: 1382229438}
+  - {fileID: 917324760}
+  - {fileID: 210197696}
   states:
   - {fileID: 746878683}
   - {fileID: 142557997}
@@ -5380,7 +5828,84 @@ MonoBehaviour:
   - {fileID: 1382229436}
   - {fileID: 917324758}
   - {fileID: 210197694}
-  countries: []
+  countries:
+  - {fileID: 917453578}
+  - {fileID: 472677306}
+--- !u!1 &1350695027
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1350695028}
+  - component: {fileID: 1350695030}
+  - component: {fileID: 1350695029}
+  m_Layer: 5
+  m_Name: flagBackground
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1350695028
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1350695027}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1322930472}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -760, y: 0}
+  m_SizeDelta: {x: 400, y: 200}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1350695029
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1350695027}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 8582376451072964508, guid: 12219f70caed4d94abeb73433cf9e6be, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1350695030
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1350695027}
+  m_CullTransparentMesh: 1
 --- !u!1 &1352151459
 GameObject:
   m_ObjectHideFlags: 0
@@ -5540,14 +6065,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nametag: Butler-Riverdale
-  population: 1000
+  population: 12154
   owner: DEF
   politics:
+  - 21
+  - 18
+  - 12
+  - 29
   - 20
-  - 20
-  - 20
-  - 20
-  - 20
+  income: 1000
 --- !u!1 &1371318197
 GameObject:
   m_ObjectHideFlags: 0
@@ -5715,6 +6241,7 @@ MonoBehaviour:
   - 32
   - 18
   - 30
+  income: 1000
 --- !u!1 &1382229436
 GameObject:
   m_ObjectHideFlags: 0
@@ -5874,14 +6401,147 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nametag: Chatham Township
-  population: 1000
+  population: 10086
   owner: DEF
   politics:
-  - 20
-  - 20
-  - 20
-  - 20
-  - 20
+  - 23
+  - 27
+  - 16
+  - 24
+  - 10
+  income: 1000
+--- !u!1 &1453391381
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1453391382}
+  - component: {fileID: 1453391385}
+  - component: {fileID: 1453391384}
+  - component: {fileID: 1453391383}
+  m_Layer: 5
+  m_Name: topBarButton
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1453391382
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1453391381}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 973016124}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 735, y: 0}
+  m_SizeDelta: {x: 50, y: 150}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1453391383
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1453391381}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_WrapAround: 0
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 1453391384}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 788283184}
+        m_TargetAssemblyTypeName: clickHandler, Assembly-CSharp
+        m_MethodName: topBarButton
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &1453391384
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1453391381}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 5742698099162714042, guid: c3f44bd81d0f4794e8d92e660a55979b, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1453391385
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1453391381}
+  m_CullTransparentMesh: 1
 --- !u!1 &1469643582
 GameObject:
   m_ObjectHideFlags: 0
@@ -6041,7 +6701,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nametag: Mountain Lakes
-  population: 1000
+  population: 4472
   owner: DEF
   politics:
   - 20
@@ -6049,6 +6709,7 @@ MonoBehaviour:
   - 20
   - 20
   - 20
+  income: 1000
 --- !u!1 &1488691930
 GameObject:
   m_ObjectHideFlags: 0
@@ -6209,13 +6870,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nametag: Randolph
   population: 26504
-  owner: DEF
+  owner: GUH
   politics:
   - 24
   - 12
   - 18
   - 21
   - 25
+  income: 1000
 --- !u!1 &1634155223
 GameObject:
   m_ObjectHideFlags: 0
@@ -6250,7 +6912,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.6006, y: 38.564392}
+  m_AnchoredPosition: {x: -0.6006, y: 24.6}
   m_SizeDelta: {x: 240, y: 35}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1634155225
@@ -6655,6 +7317,7 @@ MonoBehaviour:
   - 22
   - 25
   - 23
+  income: 1000
 --- !u!1 &1680457282
 GameObject:
   m_ObjectHideFlags: 0
@@ -6814,14 +7477,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nametag: Lincoln Park
-  population: 1000
+  population: 10915
   owner: DEF
   politics:
-  - 20
-  - 20
-  - 20
-  - 20
-  - 20
+  - 10
+  - 17
+  - 23
+  - 26
+  - 24
+  income: 1000
 --- !u!1 &1772328368
 GameObject:
   m_ObjectHideFlags: 0
@@ -7135,14 +7799,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nametag: Florham Park
-  population: 1000
+  population: 12585
   owner: DEF
   politics:
-  - 20
-  - 20
-  - 20
-  - 20
-  - 20
+  - 21
+  - 16
+  - 17
+  - 22
+  - 24
+  income: 1000
 --- !u!1 &1859141421
 GameObject:
   m_ObjectHideFlags: 0
@@ -7592,14 +8257,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nametag: East Morris Township
-  population: 1000
+  population: 11487
   owner: DEF
   politics:
-  - 20
-  - 20
-  - 20
-  - 20
-  - 20
+  - 48
+  - 22
+  - 13
+  - 12
+  - 5
+  income: 1000
 --- !u!1 &1931148253
 GameObject:
   m_ObjectHideFlags: 0
@@ -7759,14 +8425,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nametag: Boonton
-  population: 1000
+  population: 13195
   owner: DEF
   politics:
+  - 27
   - 20
-  - 20
-  - 20
-  - 20
-  - 20
+  - 21
+  - 28
+  - 4
+  income: 1000
 --- !u!1 &1940720367
 GameObject:
   m_ObjectHideFlags: 0
@@ -7926,14 +8593,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nametag: Morristown
-  population: 1000
+  population: 20180
   owner: DEF
   politics:
-  - 20
-  - 20
-  - 20
-  - 20
-  - 20
+  - 25
+  - 35
+  - 15
+  - 18
+  - 7
+  income: 1000
 --- !u!1 &1962473714
 GameObject:
   m_ObjectHideFlags: 0
@@ -8101,6 +8769,7 @@ MonoBehaviour:
   - 12
   - 8
   - 8
+  income: 1000
 --- !u!1 &1987041467
 GameObject:
   m_ObjectHideFlags: 0
@@ -8139,7 +8808,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -2.4}
+  m_AnchoredPosition: {x: 0, y: -16.364397}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &2048147507
@@ -8302,13 +8971,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nametag: South Jefferson
   population: 10269
-  owner: DEF
+  owner: GUH
   politics:
   - 18
   - 17
   - 38
   - 1
   - 42
+  income: 1000
 --- !u!1 &2096528634
 GameObject:
   m_ObjectHideFlags: 0
@@ -8540,14 +9210,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nametag: Madison
-  population: 1000
+  population: 16937
   owner: DEF
   politics:
+  - 34
+  - 26
   - 20
-  - 20
-  - 20
-  - 20
-  - 20
+  - 17
+  - 3
+  income: 1000
 --- !u!1 &2107506969
 GameObject:
   m_ObjectHideFlags: 0
@@ -8630,3 +9301,4 @@ SceneRoots:
   - {fileID: 1277308061}
   - {fileID: 788283185}
   - {fileID: 823774890}
+  - {fileID: 37897755}

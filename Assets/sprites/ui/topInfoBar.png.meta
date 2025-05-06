@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 723032be886639849b5109ffffa2725d
+guid: b6b2caad38d35164f8e6b40bad9ff2f9
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 4766952339921162384
-    second: west morris township_0
+      213: 7987998666034899069
+    second: topInfoBar_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: west morris township_0
+      name: topInfoBar_0
       rect:
         serializedVersion: 2
-        x: 158
-        y: 77
-        width: 46
-        height: 41
+        x: 0
+        y: 0
+        width: 1420
+        height: 325
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 090d73295ed972240800000000000000
-      internalID: 4766952339921162384
+      spriteID: d78ed4be6721bde60800000000000000
+      internalID: 7987998666034899069
       vertices: []
       indices: 
       edges: []

@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 723032be886639849b5109ffffa2725d
+guid: 12219f70caed4d94abeb73433cf9e6be
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 4766952339921162384
-    second: west morris township_0
+      213: 8582376451072964508
+    second: flagHolder_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: west morris township_0
+      name: flagHolder_0
       rect:
         serializedVersion: 2
-        x: 158
-        y: 77
-        width: 46
-        height: 41
+        x: 0
+        y: 0
+        width: 400
+        height: 300
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 090d73295ed972240800000000000000
-      internalID: 4766952339921162384
+      spriteID: c97b1ee29e9ba1770800000000000000
+      internalID: 8582376451072964508
       vertices: []
       indices: 
       edges: []
