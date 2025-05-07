@@ -1,0 +1,1017 @@
+fileFormatVersion: 2
+guid: f95a3bc8e0c6e5c4891576f9d81c4369
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -179385757275841480
+    second: terrainMap_0
+  - first:
+      213: 4476582337016286050
+    second: terrainMap_1
+  - first:
+      213: 8703165901783694991
+    second: terrainMap_2
+  - first:
+      213: 497922177628595977
+    second: terrainMap_3
+  - first:
+      213: 5433332924472104822
+    second: terrainMap_4
+  - first:
+      213: -1853234323831477341
+    second: terrainMap_5
+  - first:
+      213: 7211876269300817522
+    second: terrainMap_6
+  - first:
+      213: -6121488990011814005
+    second: terrainMap_7
+  - first:
+      213: -6364715721400514145
+    second: terrainMap_8
+  - first:
+      213: 623120704584907673
+    second: terrainMap_9
+  - first:
+      213: -6104085654752835055
+    second: terrainMap_10
+  - first:
+      213: 1594952447281158346
+    second: terrainMap_11
+  - first:
+      213: -7427155110045364346
+    second: terrainMap_12
+  - first:
+      213: 1576688710313691285
+    second: terrainMap_13
+  - first:
+      213: 7989645654709489677
+    second: terrainMap_14
+  - first:
+      213: 8137453669787064757
+    second: terrainMap_15
+  - first:
+      213: 5508931780608317721
+    second: terrainMap_16
+  - first:
+      213: -947725200535464805
+    second: terrainMap_17
+  - first:
+      213: 4420388698542980873
+    second: terrainMap_18
+  - first:
+      213: -3851535828941713055
+    second: terrainMap_19
+  - first:
+      213: 3035459411507706160
+    second: terrainMap_20
+  - first:
+      213: 5120343965360120706
+    second: terrainMap_21
+  - first:
+      213: -4750848859410800504
+    second: terrainMap_22
+  - first:
+      213: -7893443506037001101
+    second: terrainMap_23
+  - first:
+      213: -116445504317024514
+    second: terrainMap_24
+  - first:
+      213: 5164372909791671262
+    second: terrainMap_25
+  - first:
+      213: 204142799683038764
+    second: terrainMap_26
+  - first:
+      213: -3486412129211225426
+    second: terrainMap_27
+  - first:
+      213: 5175036091221641300
+    second: terrainMap_28
+  - first:
+      213: 4677661161749213296
+    second: terrainMap_29
+  - first:
+      213: 2797677669233289704
+    second: terrainMap_30
+  - first:
+      213: -7191450266326140322
+    second: terrainMap_31
+  - first:
+      213: 8053094375352981937
+    second: terrainMap_32
+  - first:
+      213: -2905690971553698007
+    second: terrainMap_33
+  - first:
+      213: 8136432581644888724
+    second: terrainMap_34
+  - first:
+      213: -7586789415155956908
+    second: terrainMap_35
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: terrainMap_0
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 164
+        width: 57
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83c1fcbaa91b28df0800000000000000
+      internalID: -179385757275841480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terrainMap_1
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 150
+        width: 79
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26bc4a5eae3002e30800000000000000
+      internalID: 4476582337016286050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terrainMap_2
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 213
+        width: 62
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8efb1db64bd7c870800000000000000
+      internalID: 8703165901783694991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terrainMap_3
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 187
+        width: 51
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 907675b1599f8e600800000000000000
+      internalID: 497922177628595977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terrainMap_4
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 208
+        width: 34
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 677189df183176b40800000000000000
+      internalID: 5433332924472104822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terrainMap_5
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 180
+        width: 26
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3aba67a833df746e0800000000000000
+      internalID: -1853234323831477341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terrainMap_6
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 101
+        width: 61
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27e9ebbb14bb51460800000000000000
+      internalID: 7211876269300817522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terrainMap_7
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 114
+        width: 50
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8f81e5523a1c0ba0800000000000000
+      internalID: -6121488990011814005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terrainMap_8
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 149
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f990499e5ccfba7a0800000000000000
+      internalID: -6364715721400514145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terrainMap_9
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 141
+        width: 20
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99b79f8baf4c5a800800000000000000
+      internalID: 623120704584907673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terrainMap_10
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 148
+        width: 19
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11a46e5107ee94ba0800000000000000
+      internalID: -6104085654752835055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terrainMap_11
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 119
+        width: 45
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac855d5ecc8622610800000000000000
+      internalID: 1594952447281158346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terrainMap_12
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 153
+        width: 42
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68fc40637c17de890800000000000000
+      internalID: -7427155110045364346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terrainMap_13
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 143
+        width: 23
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 598cd93470681e510800000000000000
+      internalID: 1576688710313691285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terrainMap_14
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 111
+        width: 50
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d00d33a546ce0ee60800000000000000
+      internalID: 7989645654709489677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terrainMap_15
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 126
+        width: 42
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b95bd3affa0ee070800000000000000
+      internalID: 8137453669787064757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terrainMap_16
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 156
+        width: 32
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 919d4035448a37c40800000000000000
+      internalID: 5508931780608317721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terrainMap_17
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 99
+        width: 57
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b94d56d83f009d2f0800000000000000
+      internalID: -947725200535464805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terrainMap_18
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 134
+        width: 22
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90f3ec1e910685d30800000000000000
+      internalID: 4420388698542980873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terrainMap_19
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 112
+        width: 49
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1615d34e1989c8ac0800000000000000
+      internalID: -3851535828941713055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terrainMap_20
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 46
+        width: 77
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0397801904e102a20800000000000000
+      internalID: 3035459411507706160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terrainMap_21
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 46
+        width: 56
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 283ea1f25bd1f0740800000000000000
+      internalID: 5120343965360120706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terrainMap_22
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 67
+        width: 38
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 880ef392228911eb0800000000000000
+      internalID: -4750848859410800504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terrainMap_23
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 79
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 374fc08d3fad47290800000000000000
+      internalID: -7893443506037001101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terrainMap_24
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 109
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef61e774e6d426ef0800000000000000
+      internalID: -116445504317024514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terrainMap_25
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 90
+        width: 40
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed378c7acc98ba740800000000000000
+      internalID: 5164372909791671262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terrainMap_26
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 90
+        width: 36
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2eaf827bc245d200800000000000000
+      internalID: 204142799683038764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terrainMap_27
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 56
+        width: 39
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eaa60c9e3a6cd9fc0800000000000000
+      internalID: -3486412129211225426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terrainMap_28
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 32
+        width: 49
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 458871d08eb61d740800000000000000
+      internalID: 5175036091221641300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terrainMap_29
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 73
+        width: 37
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 070f3b51b046ae040800000000000000
+      internalID: 4677661161749213296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terrainMap_30
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 82
+        width: 21
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e961b6740953d620800000000000000
+      internalID: 2797677669233289704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terrainMap_31
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 57
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5afdbfa516d23c90800000000000000
+      internalID: -7191450266326140322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terrainMap_32
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 65
+        width: 38
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b95c91daa652cf60800000000000000
+      internalID: 8053094375352981937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terrainMap_33
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 25
+        width: 31
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92f6b75d479eca7d0800000000000000
+      internalID: -2905690971553698007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terrainMap_34
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 47
+        width: 21
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49aabd7035a6ae070800000000000000
+      internalID: 8136432581644888724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terrainMap_35
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 1
+        width: 43
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4538fe3393f46b690800000000000000
+      internalID: -7586789415155956908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

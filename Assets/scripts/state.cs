@@ -7,4 +7,7 @@ public class state : MonoBehaviour
     public string owner;
     public float[] politics;
     public float income;
+    public float tax;
+    public float trade;
+    public float maintenance;
 }

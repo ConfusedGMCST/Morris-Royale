@@ -21,9 +21,17 @@ public class clickHandler : MonoBehaviour
     public TextMeshProUGUI popText;
     public TextMeshProUGUI ownerText;
     public TextMeshProUGUI[] parties;
+    public TextMeshProUGUI income;
+    public TextMeshProUGUI tax;
+    public TextMeshProUGUI trade;
+    public TextMeshProUGUI maintenance;
 
     float sinIncrement = 498;
     float topSinIncrement = 1000;
+    float tradeFloat;
+    float taxFloat;
+    float maintenanceFloat;
+    float incomeFloat;
     float topBarSin = 0;
     float topBarFrame = 0;
     float infoBarFrame = 0;
@@ -33,7 +41,6 @@ public class clickHandler : MonoBehaviour
     bool infoBarActive = false;
     bool topBarActive = false;
 
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         infoBar.rectTransform.anchoredPosition = downPosition;
@@ -53,7 +60,7 @@ public class clickHandler : MonoBehaviour
         Debug.Log(foundCountry);
         return foundCountry;
     }
-    int findStateName(string str)
+    int findState(string str)
     {
         string numStr = "";
         int num = 0;
@@ -120,12 +127,24 @@ public class clickHandler : MonoBehaviour
         {
             infoBarActive = true;
         }
-        curStateNum = findStateName(EventSystem.current.currentSelectedGameObject.name) - 1;
+        curStateNum = findState(EventSystem.current.currentSelectedGameObject.name) - 1;
+
         state curState = states[curStateNum].GetComponent<state>();
         country provOwner = findCountry(curState);
+
+        taxFloat = curState.tax;
+        tradeFloat = curState.trade;
+        maintenanceFloat = curState.maintenance;
+        incomeFloat = (taxFloat + tradeFloat) - maintenanceFloat;
+        curState.income = incomeFloat;
+
+        tax.text = "Tax: " + taxFloat + "$";
+        trade.text = "Trade: " + tradeFloat + "$";
+        maintenance.text = "Maintenance: " + maintenanceFloat + "$";
         stateName.text = curState.nametag;
         ownerText.text = provOwner.countryName;
         popText.text = "Population: " + curState.population;
+        income.text = "Income: " + incomeFloat + "$";
         for (int i = 0; i < parties.Length; i++)
         {
             parties[i].text = curState.politics[i] + "%";
