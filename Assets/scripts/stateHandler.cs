@@ -19,6 +19,7 @@ public class stateHandler : MonoBehaviour
                     colorBlock = stateButtons[i].colors;
                     colorBlock.normalColor = countries[j].GetComponent<country>().color;
                     stateButtons[i].colors = colorBlock;
+                    state_data.income = (state_data.tax + state_data.trade) - state_data.maintenance;
                 }
             }
         }

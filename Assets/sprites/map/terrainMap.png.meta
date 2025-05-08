@@ -1009,7 +1009,43 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      terrainMap_0: -179385757275841480
+      terrainMap_1: 4476582337016286050
+      terrainMap_10: -6104085654752835055
+      terrainMap_11: 1594952447281158346
+      terrainMap_12: -7427155110045364346
+      terrainMap_13: 1576688710313691285
+      terrainMap_14: 7989645654709489677
+      terrainMap_15: 8137453669787064757
+      terrainMap_16: 5508931780608317721
+      terrainMap_17: -947725200535464805
+      terrainMap_18: 4420388698542980873
+      terrainMap_19: -3851535828941713055
+      terrainMap_2: 8703165901783694991
+      terrainMap_20: 3035459411507706160
+      terrainMap_21: 5120343965360120706
+      terrainMap_22: -4750848859410800504
+      terrainMap_23: -7893443506037001101
+      terrainMap_24: -116445504317024514
+      terrainMap_25: 5164372909791671262
+      terrainMap_26: 204142799683038764
+      terrainMap_27: -3486412129211225426
+      terrainMap_28: 5175036091221641300
+      terrainMap_29: 4677661161749213296
+      terrainMap_3: 497922177628595977
+      terrainMap_30: 2797677669233289704
+      terrainMap_31: -7191450266326140322
+      terrainMap_32: 8053094375352981937
+      terrainMap_33: -2905690971553698007
+      terrainMap_34: 8136432581644888724
+      terrainMap_35: -7586789415155956908
+      terrainMap_4: 5433332924472104822
+      terrainMap_5: -1853234323831477341
+      terrainMap_6: 7211876269300817522
+      terrainMap_7: -6121488990011814005
+      terrainMap_8: -6364715721400514145
+      terrainMap_9: 623120704584907673
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
